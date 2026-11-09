@@ -827,6 +827,7 @@ GameObject:
   - component: {fileID: 885883946}
   - component: {fileID: 885883945}
   - component: {fileID: 885883944}
+  - component: {fileID: 885883947}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -908,6 +909,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &885883947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885883943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fccbec99979a024b812daaf93bf7f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ThirdPersonCameraController
+  target: {fileID: 1946895960}
+  lookAction: {fileID: -3583650531735849310, guid: 594086bbebdada84fb495281af7b95fa, type: 3}
+  distance: 5
+  heightOffset: 1.5
+  sensitivity: 0.1
+  minPitch: -90
+  maxPitch: 90
 --- !u!1 &993480638
 GameObject:
   m_ObjectHideFlags: 0
